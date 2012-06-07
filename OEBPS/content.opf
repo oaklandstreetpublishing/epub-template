@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier id="BookId" opf:scheme="UUID">urn:uuid:</dc:identifier>
+    <dc:title></dc:title>
+    <dc:identifier opf:scheme="ISBN"></dc:identifier>
+    <dc:creator opf:file-as="LAST, FIRST" opf:role="aut"></dc:creator>
+    <dc:publisher></dc:publisher>
+    <dc:language>en</dc:language>
+    <meta name="cover" content="cover-image" />
+  </metadata>
+
+  <manifest>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml" />
+
+    <item href="cover.html" id="cover" media-type="application/xhtml+xml" />
+    <item href="copyright.html" id="copyright" media-type="application/xhtml+xml" />
+    <item href="toc.html" id="toc" media-type="application/xhtml+xml" />
+    <item href="acknowlegments.html" id="acknowlegments" media-type="application/xhtml+xml" />
+    <item href="foreword.html" id="foreword" media-type="application/xhtml+xml" />
+    <item href="dedication.html" id="dedication" media-type="application/xhtml+xml" />
+    <item href="ch#.html" id="ch#" media-type="application/xhtml+xml" />
+    <!-- ... -->
+
+    <item href="fonts/.otf" id="" media-type="application/vnd.ms-opentype" />
+
+    <item href="images/.jpg" id="" media-type="image/jpeg" />
+
+    <item href=".css" id="" media-type="text/css" />
+  </manifest>
+
+  <spine toc="ncx">
+    <itemref idref="cover" linear="no" />
+    <itemref idref="copyright" />
+    <itemref idref="toc" />
+    <itemref idref="acknowlegments" />
+    <itemref idref="foreword" />
+    <itemref idref="dedication" />
+    <itemref idref="ch#" />
+  </spine>
+
+  <guide>
+    <reference href="cover.html" title="Cover" type="cover" />
+    <reference href="copyright.html" title="Copyright" type="copyright-page" />
+    <reference href="toc.html" title="Table of Contents" type="toc" />
+    <reference href="acknowlegments.html" title="Acknowlegments" type="acknowlegments" />
+    <reference href="foreword.html" title="Foreword" type="foreword" />
+    <reference href="dedication.html" title="Dedication" type="dedication" />
+    <reference href="ch#.html" title="..." type="text" />
+  </guide>
+</package>

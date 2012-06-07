@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta content="urn:uuid:###MAKE A UUID" name="dtb:uid"/>
+		<meta name="dtb:depth" content="1" />
+		<meta name="dtb:totalPageCount" content="0" />
+		<meta name="dtb:maxPageNumber" content="0" />
+	</head>
+
+	<docTitle>
+		<text>###TITLE</text>
+	</docTitle>
+
+	<navMap>
+		<navPoint id="navpoint-cover" playOrder="1" class="cover">
+			<navLabel>
+				<text>Cover</text>
+			</navLabel>
+			<content src="cover.html" />
+		</navPoint>
+		<navPoint id="navpoint-toc" playOrder="2">
+			<navLabel>
+				<text>Table of Contents</text>
+			</navLabel>
+			<content src="toc.html" />
+		</navPoint>
+		<navPoint id="navpoint-acknowledgments" playOrder="3">
+			<navLabel>
+				<text>Acknowledgments</text>
+			</navLabel>
+			<content src="acknowlegments.html"/>
+		</navPoint>
+		<navPoint id="navpoint-foreword" playOrder="4">
+			<navLabel>
+				<text>Foreword</text>
+			</navLabel>
+			<content src="foreword.html"/>
+		</navPoint>
+		<navPoint id="navpoint-ch#" playOrder="5" class="chapter">
+			<navLabel>
+				<text>###CHAPTER TITLE</text>
+			</navLabel>
+			<content src="ch#.html" />
+		</navPoint>
+	</navMap>
+</ncx>
